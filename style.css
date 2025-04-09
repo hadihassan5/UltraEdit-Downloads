@@ -550,6 +550,7 @@ footer ul li {
 
     .down {
         margin: 0 20px;
+        width: 100%;
     }
 
     .grid {
@@ -602,7 +603,7 @@ footer ul li {
         position: absolute;
         top: 100%;
         left: 0;
-        width: 100%;
+        width: 170%;
         background: white;
         padding: 20px 5%;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -669,3 +670,25 @@ footer ul li {
         padding-right: 20px;
     }
 }
+
+@media screen and (max-width: 300px) {
+    .nav-links {
+        position: absolute;
+        top: 100%;
+        left: -40px;
+        width: 305%;
+        background: white;
+        padding: 20px 5%;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        z-index: 99;
+        display: none;
+    }
+    .down {
+        margin: 0 20px;
+        width: 125%;
+    }
+
+  }
